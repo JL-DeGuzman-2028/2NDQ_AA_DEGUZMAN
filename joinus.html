@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us - Shift For A Greener Future</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Shift For A Greener Future </h1>
+    </header>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="join-us.html" class="active">Join Us</a>
+    </nav>
+    <main>
+        <div class="content-container">
+            <h1>How to Join Us</h1>
+            <p>Support the advocacy by donating or volunteering!</p>
+
+            <!-- Donate Section -->
+            <h2>Donate Now</h2>
+            <form action="thank-you-donation.html" method="GET">
+                <label for="donation-amount">Enter your donation amount(in pesos):</label>
+                <input type="number" id="donation-amount" name="amount" placeholder="e.g., 500" required>
+                <button type="submit" class="button">Donate Now</button>
+            </form>
+
+            <!-- Volunteer Section -->
+            <h2>Become a Volunteer</h2>
+            <form action="thank-you-volunteer.html" method="POST">
+                <label for="name">Your Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="e.g., Mina Bringas" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="e.g., pj@gmail.com" required>
+
+                <button type="submit" class="button">Sign Up</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        Copyright © 2024 ShiftForAGreenerFuture Advocacy. All Rights Reserved.
+    </footer>
+</body>
+</html>
